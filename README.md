@@ -3,7 +3,7 @@ An interactive, modular command-line interface application built with python to 
 
 ---
 
-## 📌 Key Features
+## key Features
 
 - **Expense Management**: Add new expenses with dynamic field checks or delete existing entries interactively.
 - **Data Validation**: Built-in verification for non-negative amounts, accurate date formatting (`YYYY-MM-DD`), and valid string categories.
@@ -14,7 +14,7 @@ An interactive, modular command-line interface application built with python to 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ExpenseTracker/

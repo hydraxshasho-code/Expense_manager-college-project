@@ -1,5 +1,9 @@
 import unittest
+import sys
+import os
 
+# Add parent directory to sys.path so modules can be imported when running directly
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from reports import calculate_total, category_summary, highest_expense
 from validators import validate_amount, validate_category, validate_date
 

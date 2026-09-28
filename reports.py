@@ -16,3 +16,7 @@ def highest_expense(expenses):
         return None
     highest = max(expenses, key=lambda x: x['amount'])
     return highest
+def check_budget_alert(expenses, limit=10000):
+    total = sum(e['amount'] for e in expenses)
+    if total > limit:
+        print(f"\n⚠️ WARNING: You have exceeded your budget limit of ₹{limit}! Total spent: ₹{total}")

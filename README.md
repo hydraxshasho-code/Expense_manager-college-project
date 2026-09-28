@@ -35,11 +35,11 @@ ExpenseTracker/
 - Git and GitHub for version control
 
 ## Installation & Setup
-1. Repository clone karein:
+1. Repository clone:
    ```bash
    git clone https://github.com/hydraxshasho-code/Expense_manager-college-project.git
    ```
-2. Directory enter karein:
+2. Directory:
    ```bash
    cd Expense_manager-college-project
    ```

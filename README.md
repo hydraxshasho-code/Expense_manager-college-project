@@ -27,8 +27,9 @@ ExpenseTracker/
 ├── utils.py            # CLI display utilities and UI headers
 ├── .gitignore          # Keeps temporary Python files and local JSON out of git
 └── README.md           # Project documentation
+```
 
-## Technology used
+## Technologies Used
 - Python 3.8 or higher
 - Standard modules (json for storage)
 - Git and GitHub for version control
@@ -36,4 +37,13 @@ ExpenseTracker/
 ## Installation & Setup
 1. Repository clone karein:
    ```bash
-   git clone [https://github.com/hydraxshasho-code/Expense_manager-college-project.git](https://github.com/hydraxshasho-code/Expense_manager-college-project.git)
+   git clone https://github.com/hydraxshasho-code/Expense_manager-college-project.git
+   ```
+2. Directory enter karein:
+   ```bash
+   cd Expense_manager-college-project
+   ```
+3. Run the project:
+   ```bash
+   python execution.py
+   ```
